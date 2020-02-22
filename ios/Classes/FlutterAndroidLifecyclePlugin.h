@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface FlutterAndroidLifecyclePlugin : NSObject<FlutterPlugin>
+@interface FlutterAndroidLifecyclePlugin2 : NSObject<FlutterPlugin>
 @end

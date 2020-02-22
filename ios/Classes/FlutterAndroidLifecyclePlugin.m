@@ -1,8 +1,8 @@
-#import "FlutterAndroidLifecyclePlugin.h"
+#import "FlutterAndroidLifecyclePlugin2.h"
 #import <flutter_android_lifecycle/flutter_android_lifecycle-Swift.h>
 
-@implementation FlutterAndroidLifecyclePlugin
+@implementation FlutterAndroidLifecyclePlugin2
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftFlutterAndroidLifecyclePlugin registerWithRegistrar:registrar];
+  [SwiftFlutterAndroidLifecyclePlugin2 registerWithRegistrar:registrar];
 }
 @end

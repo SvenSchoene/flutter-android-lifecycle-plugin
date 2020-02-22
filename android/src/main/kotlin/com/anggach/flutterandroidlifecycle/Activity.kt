@@ -95,15 +95,15 @@ open class FlutterAndroidLifecycleActivity: FlutterActivity() {
     private var onPauseStreamHandler: OnPauseStreamHandler? = null
 
     private fun setUpOnStartStream(onStartStreamHandler: OnStartStreamHandler?) {
-        FlutterAndroidLifecyclePlugin.setUpOnStart(onStartStreamHandler)
+        FlutterAndroidLifecyclePlugin2.setUpOnStart(onStartStreamHandler)
     }
 
     private fun setUpOnResumeStream(onResumeStreamHandler: OnResumeStreamHandler?) {
-        FlutterAndroidLifecyclePlugin.setUpOnResume(onResumeStreamHandler)
+        FlutterAndroidLifecyclePlugin2.setUpOnResume(onResumeStreamHandler)
     }
 
     private fun setUpOnPauseStream(onPauseStreamHandler: OnPauseStreamHandler?) {
-        FlutterAndroidLifecyclePlugin.setUpOnPause(onPauseStreamHandler)
+        FlutterAndroidLifecyclePlugin2.setUpOnPause(onPauseStreamHandler)
     }
 
     override fun onStart() {
@@ -145,15 +145,15 @@ open class FlutterAndroidLifecycleFragmentActivity: FlutterFragmentActivity() {
     private var onPauseStreamHandler: OnPauseStreamHandler? = null
 
     private fun setUpOnStartStream(onStartStreamHandler: OnStartStreamHandler?) {
-        FlutterAndroidLifecyclePlugin.setUpOnStart(onStartStreamHandler)
+        FlutterAndroidLifecyclePlugin2.setUpOnStart(onStartStreamHandler)
     }
 
     private fun setUpOnResumeStream(onResumeStreamHandler: OnResumeStreamHandler?) {
-        FlutterAndroidLifecyclePlugin.setUpOnResume(onResumeStreamHandler)
+        FlutterAndroidLifecyclePlugin2.setUpOnResume(onResumeStreamHandler)
     }
 
     private fun setUpOnPauseStream(onPauseStreamHandler: OnPauseStreamHandler?) {
-        FlutterAndroidLifecyclePlugin.setUpOnPause(onPauseStreamHandler)
+        FlutterAndroidLifecyclePlugin2.setUpOnPause(onPauseStreamHandler)
     }
 
     override fun onStart() {

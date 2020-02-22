@@ -7,7 +7,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
 
-class FlutterAndroidLifecyclePlugin: MethodCallHandler {
+class FlutterAndroidLifecyclePlugin2: MethodCallHandler {
   companion object {
     private const val ON_START_CHANNEL: String = "flutter_android_lifecycle/on_start"
     private const val ON_RESUME_CHANNEL: String = "flutter_android_lifecycle/on_resume"
@@ -20,7 +20,7 @@ class FlutterAndroidLifecyclePlugin: MethodCallHandler {
     @JvmStatic
     fun registerWith(registrar: Registrar) {
       val channel = MethodChannel(registrar.messenger(), "flutter_android_lifecycle")
-      channel.setMethodCallHandler(FlutterAndroidLifecyclePlugin())
+      channel.setMethodCallHandler(FlutterAndroidLifecyclePlugin2())
 
       onStartChannel = EventChannel(registrar.messenger(), ON_START_CHANNEL)
       onResumeChannel = EventChannel(registrar.messenger(), ON_RESUME_CHANNEL)

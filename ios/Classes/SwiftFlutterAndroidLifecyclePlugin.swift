@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftFlutterAndroidLifecyclePlugin: NSObject, FlutterPlugin {
+public class SwiftFlutterAndroidLifecyclePlugin2: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "flutter_android_lifecycle", binaryMessenger: registrar.messenger())
-    let instance = SwiftFlutterAndroidLifecyclePlugin()
+    let instance = SwiftFlutterAndroidLifecyclePlugin2()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
