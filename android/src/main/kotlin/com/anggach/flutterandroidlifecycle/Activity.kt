@@ -3,7 +3,7 @@ package com.anggach.flutterandroidlifecycle
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import io.flutter.app.FlutterActivity
+import io.flutter.embedding.android.FlutterActivity
 import io.flutter.app.FlutterFragmentActivity
 import io.flutter.plugin.common.EventChannel
 
